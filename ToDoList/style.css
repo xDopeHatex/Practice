@@ -15,14 +15,21 @@ html {
 }
 
 h1 {
-    text-align: center;
+   margin-left: 1rem;
+    border: 3px solid red;
 }
 
 textarea {
+    display: inline-block;
+    flex-basis: 73%;
     resize: none;
     border-radius: 5px;
     border-color: grey; 
+    vertical-align: middle;
+    font-size: 1rem;
   }
+
+ 
 
 
 ul {
@@ -37,6 +44,7 @@ ul {
     padding: 1rem;
     padding-bottom: 3rem;
     background-color: blanchedalmond;
+    border: 3px solid palevioletred
     
 }
 
@@ -47,7 +55,10 @@ ul {
     justify-content: center;
     align-content: center;
     margin: auto;
-    border: 2px solid antiquewhite; 
+    border: 3px solid blue;
+   
+    
+    
 }
 
 
@@ -63,14 +74,6 @@ li {
 }
 
 
-.todolist {
-    border: 2px solid antiquewhite;
-    margin: auto;
-}
-
-
-
-
 
 
 
@@ -80,17 +83,15 @@ button {
     border: none;
 }
 
-@media (min-width: 700px) {
+/*@media (min-width: 700px) {
 .entertext {
     max-width: 34rem;
 }
 }
+*/
 
 
 
-textarea {
-    width: 75%;
- }
 
 
 .buttonaddtext {
@@ -108,3 +109,8 @@ textarea {
 
 
 
+.outerrim {
+    border: 4px solid black;
+    max-width: 34rem;
+    margin: auto;
+}
