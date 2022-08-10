@@ -11,17 +11,12 @@
     <div class="outerrim">
       <h1>My ToDo list</h1>
       <div class="entertext">
-        <input
-          id="tasks"
-          type="text"
-          name="tasks"
-          placeholder="      Maybe there's something needs to be done today?"
-        />
+        <input id="tasks" type="text" name="tasks" />
 
         <button class="buttonaddtext">Add task</button>
       </div>
       <ul>
-        <li>
+        <li id="first">
           <input type="checkbox" class="checkbox" type="checkbox" /><span>
             My super task that I should already had done yesterday</span
           >
@@ -60,13 +55,13 @@
             My super task that I should already had done yesterday</span
           >
           <button>
-            <img src="https://svgshare.com/i/jqw.svg" alt="cross" />
+            <img src="/img/cross.svg" alt="cross" />
           </button>
           <button>
-            <img src="https://svgshare.com/i/jsK.svg" alt="pencil" />
+            <img src="/img/pencil.svg" alt="pencil" />
           </button>
         </li>
-        <li>
+        <li id="last">
           <input class="checkbox" type="checkbox" /><span>
             My super task that I should already had done yesterday</span
           >
