@@ -29,6 +29,8 @@ h1 {
     border: 1px solid #9BA3AF;
     margin-right: 0.5rem;
     font-size: 1rem;
+    
+    
   }
 
  
@@ -41,6 +43,7 @@ ul {
     align-content: center;
     margin: 0;
     padding: 1rem 2.5rem 3rem 2.5rem;
+    
 }
 
 
@@ -49,7 +52,9 @@ ul {
     flex-flow: row wrap;
     justify-content: center;
     align-content: center;
-    margin: auto;  
+    margin: auto; 
+    
+  
 }
 
 
@@ -63,7 +68,8 @@ li {
     list-style-type: none;
     height: 2.8rem;
     padding-top: 0.7rem;
-    transition: all 0.4s;  
+    transition: height 0.4s;  
+    
 }
 
 
@@ -131,4 +137,76 @@ input:checked + label {
     border-radius: 0 0 10px 10px;
   }
 
-  
+  li button {display: none;}
+  li:hover button {
+    display: flex;}
+
+  li button {
+    background-color: #E9F2FD;
+  }
+
+  @media (max-width: 760px) {
+
+    #tasks {
+      flex-basis: 83%;
+      margin-bottom: 1.2rem;
+    }
+
+      li {
+        border: 1px solid #9BA3AF;
+        padding: 0.3rem;
+        background-color: white;
+        flex-basis: 100%;
+        list-style-type: none;
+        height: 5rem;
+        padding-top: 0.7rem;
+        transition: height 0.4s;  
+      }
+
+      li:hover {
+        background-color: #E9F2FD;
+        height: 6.0rem;
+    }
+
+    li button {
+      position: relative;
+      top: 2.0rem;
+    }
+      
+
+
+    
+  }
+
+  @media (max-width: 530px) {
+
+h1 {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 1.8rem;
+}
+
+
+    #tasks {
+      flex-basis: 75%;
+      margin-bottom: 1.2rem;
+    }
+
+      li {
+        
+        height: 8rem;
+         
+      }
+
+      li:hover {
+        background-color: #E9F2FD;
+        height: 9.0rem;
+    }
+      
+    li button {
+      position: relative;
+      top: 3.0rem;
+    }
+
+    
+  }
