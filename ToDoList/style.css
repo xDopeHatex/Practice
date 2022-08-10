@@ -80,6 +80,7 @@ li {
     list-style-type: none;
     height: 2.8rem;
     padding-top: 0.7rem;
+    transition: all 0.4s;
     
     
 }
@@ -88,6 +89,7 @@ li {
 
 li:hover {
     background-color: #E9F2FD;
+    height: 3.0rem;
 }
 
 
@@ -145,7 +147,7 @@ button {
 }
 
 
-input:checked + span {
+input:checked + label {
 	
     color: #9BA3AF;
     text-decoration: line-through; 
