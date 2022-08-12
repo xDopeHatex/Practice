@@ -23,13 +23,13 @@ h1 {
 }
 
 #tasks {
-    flex-basis: 73%;
+    display: flex;
     height: 2.8rem;
      border-radius: 10px;
     border: 1px solid #9BA3AF;
-    margin-right: 0.5rem;
-    font-size: 1rem;
     
+    font-size: 1rem;
+    flex-grow: 1;
     
   }
 
@@ -37,12 +37,14 @@ h1 {
 
 
 ul {
-     display: flex;
+    display: flex;
     flex-flow: row wrap;
-    justify-content: center;
-    align-content: center;
-    margin: 0;
-    padding: 1rem 2.5rem 3rem 2.5rem;
+    margin-left: 0;
+    padding-left: 0;
+    
+    
+    
+   
     
     
 }
@@ -51,9 +53,11 @@ ul {
 .entertext {
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content:flex-start;
     align-content: center;
-    margin: auto; 
+    
+    gap: 0.5rem;
+    
     
   
 }
@@ -65,11 +69,19 @@ li {
     border: 1px solid #9BA3AF;
     padding: 0.3rem;
     background-color: white;
-    flex-basis: 100%;
+    align-items: center;
+
+    
     list-style-type: none;
-    height: 2.8rem;
+    flex-grow: 1;
+    gap: 0.5rem;
     padding-top: 0.7rem;
     transition: height 0.4s;  
+    display: flex;
+    
+    
+    
+
     
 }
 
@@ -84,7 +96,7 @@ li:hover {
 
 
 button {
-    float:right;
+   
     background-color: white;
     border: none;
 }
@@ -110,12 +122,16 @@ button {
 .outerrim {
     border-radius: 20px;
     padding-top: 0.8rem;
-    padding-bottom: 3rem;
+    padding-bottom: 5rem;
     max-width: 42rem;
-    margin: auto;
+    padding: 0 1.5rem;
+    
     background-color: #ffffff;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' %3E%3Cdefs%3E%3ClinearGradient id='a' x1='0' x2='0' y1='0' y2='1'%3E%3Cstop offset='0' stop-color='%2380F'/%3E%3Cstop offset='1' stop-color='%23f40'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpattern id='b' width='24' height='24' patternUnits='userSpaceOnUse'%3E%3Ccircle fill='%23ffffff' cx='12' cy='12' r='12'/%3E%3C/pattern%3E%3Crect width='100%25' height='100%25' fill='url(%23a)'/%3E%3Crect width='100%25' height='100%25' fill='url(%23b)' fill-opacity='0.1'/%3E%3C/svg%3E");
     background-attachment: fixed;
+    border: 1px solid #9BA3AF;
+    
+    
 }
 
 
@@ -146,68 +162,14 @@ input:checked + label {
     background-color: #E9F2FD;
   }
 
-  @media (max-width: 760px) {
-
-    #tasks {
-      flex-basis: 83%;
-      margin-bottom: 1.2rem;
-    }
-
-      li {
-        border: 1px solid #9BA3AF;
-        padding: 0.3rem;
-        background-color: white;
-        flex-basis: 100%;
-        list-style-type: none;
-        height: 5rem;
-        padding-top: 0.7rem;
-        transition: height 0.4s;  
-      }
-
-      li:hover {
-        background-color: #E9F2FD;
-        height: 6.0rem;
-    }
-
-    li button {
-      position: relative;
-      top: 2.0rem;
-    }
-      
-
-
-    
-  }
-
-  @media (max-width: 530px) {
-
-h1 {
-  text-align: center;
-  margin: 0;
-  margin-bottom: 1.8rem;
+label {
+  display: flex;
+  flex-grow: 1;
+}
+.buttons {
+  display: flex;
 }
 
 
-    #tasks {
-      flex-basis: 75%;
-      margin-bottom: 1.2rem;
-    }
-
-      li {
-        
-        height: 8rem;
-         
-      }
-
-      li:hover {
-        background-color: #E9F2FD;
-        height: 9.0rem;
-    }
-      
-    li button {
-      position: relative;
-      top: 3.0rem;
-    }
-
-    
-  }
+  
+  
