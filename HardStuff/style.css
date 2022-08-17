@@ -1,0 +1,619 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column wrap;
+    justify-content: space-between;
+
+    min-height: 100vh;
+    height: 200vh;
+    margin: 0;
+    border: 3px solid 
+}
+
+
+.wrapper {
+    display: flex;
+    flex-flow: column wrap;
+    
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 64px;
+    
+    
+    position: relative;
+    padding: 0;
+    
+}
+
+.intro {
+    align-self: center;
+    z-index: 29;
+    
+    
+}
+
+
+.one {
+    
+    display: flex;
+    
+    
+}
+
+.miniwrapper {
+    display: flex;
+    flex-flow: column nowrap;
+    margin-left: auto;
+    margin-right: auto;
+    
+   
+    
+
+
+    
+}
+
+ 
+
+
+
+
+
+
+.outerrim {
+    
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: #025BC1;
+    justify-content: center;
+    font-size: 0.5rem;
+    color: white;
+
+
+    
+}
+
+.footerrow1 {
+    flex-grow: 1;
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   font-size: 0.62rem;
+   padding-top: 1rem;
+    padding-bottom: 1rem;
+   
+    
+}
+.footerrow2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: flex-end;
+    align-content: flex-start;
+    border-bottom: 0.1px solid white;
+    border-top: 0.1px solid white;
+    font-size: 0.5rem;
+}
+.words {
+    display: flex;
+    
+}
+    
+   
+
+.footerrow3 {
+    display: flex;
+    align-items: center;
+    font-size: 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+    
+    
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.footerrow3 div {
+    display: flex;
+    align-items: flex-end;
+    align-content: flex-end;
+   justify-content: flex-start;
+}
+
+
+@media (min-width: 768px) {
+     
+    
+
+
+    .miniwrapper, .miniwrapper2, .miniwrapper3, .wrapper, .miniwrapper5 {
+        width: 500px;
+        transition: all 0.4s;
+        
+
+    }
+    .footerrow2 {
+        
+        
+        max-height: 80px;
+        gap: 20px 10%;
+
+        justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    
+
+}
+
+
+
+}
+        
+@media (min-width: 1280px) {    
+
+    .miniwrapper, .miniwrapper2, .miniwrapper3, .wrapper, .miniwrapper5 {
+        width: 800px;
+        transition: all 0.4s;
+        
+
+    }
+    .footerrow2 {
+        
+        
+        max-height: 80px;
+        gap: 20px 10%;
+
+        justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+
+    }
+
+        
+
+}
+
+.rightrow, .leftrow {
+    flex-basis: 48%;
+    display: flex;
+    flex-flow: row nowrap;
+    
+
+}
+
+
+
+
+
+.miniwrapper2 {
+    display: flex;
+    flex-flow: row nowrap;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 143.5px;
+    justify-content: space-between;
+    
+}
+
+
+
+
+.pictr1 {
+    background-image: url("img/pic1.png");
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+
+}
+
+.right1 {
+    display: flex;
+    flex-basis: 49%;
+    flex-flow: column wrap;
+    justify-content: space-between;
+
+    
+}
+
+.left1 {
+    
+    margin-right: 1rem;
+    display: flex;
+    flex-basis: 49%;
+    flex-flow: column wrap;
+}
+
+.hands1 {
+    justify-content: space-between;
+    flex-basis: 10%;
+    display: flex;
+    font-size: 0.8rem;
+}
+
+.hands2 {
+    font-size: 0.6rem;
+    color: gray;
+    
+
+}
+
+.hands3 {
+    font-size: 0.6rem;
+}
+
+
+.outerrim2 {
+
+    display: flex;
+    flex-flow: row nowrap;
+    
+    justify-content: center;
+    font-size: 0.5rem;
+    color: black;
+    margin-bottom: 5rem;
+    
+    
+}
+
+a:link {
+    
+    color: black;
+}
+
+a:visited {
+    color: black;
+
+}
+
+
+.rightrow {
+    display: flex;
+    
+    flex-flow: row wrap;
+}
+
+
+
+
+.pictr2 {
+    background-image: url("img/pic2.png");
+    height: 50%;
+    width: 50%;
+    display: flex;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    order: 2;
+    
+
+}
+
+.pic2t3 {
+    order: 3;
+}
+
+.left2 {
+    display: flex;
+    flex-basis: 49%;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    
+}
+
+.right2 {
+    display: flex;
+    flex-basis: 49%;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+
+
+.pictr3 {
+    background-image: url("img/pic3.png");
+    height: 50%;
+    width: 50%;
+    display: flex;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    order: 2;
+    
+
+}
+
+
+.miniwrapper3 {
+    display: flex;
+    flex-flow: row nowrap;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 51px;
+    justify-content: space-between;
+    
+}
+
+.outerrim3 {
+
+    display: flex;
+    flex-flow: row nowrap;
+    
+    justify-content: center;
+    font-size: 0.5rem;
+    color: black;
+    padding-bottom: 3rem;
+    
+    
+    
+}
+
+.buttonnews {
+    width: 119px;
+    height: 100%;
+    border: none;
+    background-color: white;
+    font-size: 1rem;
+}
+
+.news {
+    width: 190px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.newslines {
+width: 71px;
+display: flex;
+flex-flow: column nowrap;
+justify-content: space-around;
+align-items: flex-end;
+
+
+}
+
+.allnews{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 190px;
+    background-color: #025BC1;
+    color: white;
+    font-size: 1rem;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ header {
+    background-image: URL(img/Rectangle\ 2.svg);
+    display: flex;
+    flex-flow: column wrap;
+    background-repeat: no-repeat;
+    min-height: 40rem;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    
+    
+    
+}
+
+
+
+
+.top {
+    display: flex;
+    flex-flow: row nowrap;
+    position: relative;
+    min-height: 4rem;
+    background-color: rgba(2,91,193,.5);
+    
+    color: white;
+}
+
+.logo {
+    display: flex;
+    min-height: 4rem;
+    background-image: url(img/logo.svg);
+    background-repeat: no-repeat;
+    min-width: 12rem;
+    position: absolute;
+}
+
+.menu {
+    display: flex;
+    flex-flow: row nowrap;
+    flex-grow: 1;
+    
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    flex-flow: row nowrap;
+    justify-content: center;
+    gap: 3%;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    
+    
+    
+
+}
+
+li {
+    color: white;
+}
+
+.intro{
+    color: white;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 580px;
+    width: 100%;
+    
+    
+}
+
+
+
+.block {
+    
+    height: 575px;
+    width: 300px;
+    background-color: rgba(2,91,193,.5);
+    position: absolute;
+    
+}
+
+
+
+
+p {
+    font-size: 2rem;
+}
+
+.less {
+    font-size: 1rem;
+}
+
+.button { 
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    height: 40px;
+    width: 170px;
+}
+
+.intro div {
+    margin-left: 6rem;
+    margin-right: 6rem;
+
+}
+
+.buttons { 
+display: flex;
+flex-flow: row nowrap;
+justify-content: flex-end;
+
+
+}
+
+
+
+
+.buttonleft {
+    background-image: url(img/slider-menu__button_left.svg);
+    border: none;
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 50px;
+    
+    
+}
+
+.buttonright {
+    background-image: url(img/slider-menu__button_right.svg);
+    border: none;
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 50px;
+}
+
+
+
+.miniwrapper5 {
+
+
+        display: flex;
+        flex-flow: row nowrap;
+        margin-left: auto;
+        margin-right: auto;
+        min-height: 250px;
+        justify-content: space-between;
+        gap: 4%;
+        
+}
+
+
+
+.leftpicture {
+    background-image: url(img/leftolymp.png);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+
+.leftpicture div {
+    height: 20px;
+    background-color: white;
+    
+}
+
+
+
+.rightpicture {
+    background-image: url(img/rightolymp.png);
+    height: 100%;
+    width: 100%;
+    
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+
+
+.rightpicture div {
+    height: 100px;
+    background-color: white;
+}
