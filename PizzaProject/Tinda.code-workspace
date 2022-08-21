@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "../../../Git/Tinda"
+	},
+	{
+		"path": ".."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "Tinda"
+  }
+}

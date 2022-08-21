@@ -1,0 +1,233 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column wrap;
+    
+    
+    font-family: Arial, Helvetica, sans-serif;
+
+    min-height: 100vh;
+    height: 400vh;
+    margin: 0;
+    
+}
+
+
+.outerrim1 {
+    display: flex;
+    flex-flow: row nowrap;
+    background-image: url(img/hawaiian-pizza-with-pineappleham-cheese-wooden-table.jpg);
+    justify-content: center;
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+    
+}
+
+.wrapper1 {
+    background-color: rgb(0, 0, 0, .5);
+    width: 1000px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 5rem 0;
+    padding: 0 5rem;
+}
+
+.wrapper1 h2 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.wrapper1 p {
+    text-align: center;
+}
+
+.wrapper1 p:last-child {
+    font-style: italic;
+}
+
+.wrapper1 button {
+    width: 350px;
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    font-size: 2rem;
+    border: 2px solid white;
+    box-shadow: 0px 5px 1px lightgrey;
+    display: block;
+    transition: all 0.4s;
+}
+
+.wrapper1 button:hover {
+    color: orange;
+    border-color: orange;
+    box-shadow: none;
+}
+
+
+
+.outerrim2 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.wrapper2 {
+    
+    width: 800px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: space-between;
+    color: black;
+    
+}
+
+
+.wrapper2 h2 {
+    padding-top: 4rem;
+    border-bottom: 1px solid black;
+    padding-bottom: 4rem;
+    font-size: 2.5rem;
+}
+
+.p {
+    padding-top: 2.5rem;
+}
+
+.wrapper3 {
+    
+    width: 800px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    
+}
+
+.wrapper3 h2 {
+    padding-top: 10rem;
+    font-size: 2.5rem;
+    
+}
+
+.wrapper3 p {
+    
+    font-size: 1.5rem;
+    
+}
+
+.wrapper4 {
+    width: 1200px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    margin: 0 auto;
+    gap: 5%;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+}
+
+
+.pic1{
+   
+    background-image: url(img/1.svg);
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.pic2{
+   
+    background-image: url(img/2.svg);
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.pic3{
+   
+    background-image: url(img/3.svg);
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+
+   
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+}
+
+#time-3-icon {
+    fill: orange;
+}
+
+.col1 h2, .col1 p {
+    
+    text-align: center;
+}
+
+.col2 h2, .col2 p {
+    
+    text-align: center;
+}
+
+.col3 h2, .col3 p {
+    
+    text-align: center;
+}
+
+.col1, .col2, .col3 {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.map {
+    position: relative;
+}
+
+
+.text {
+    padding: 50px;
+    height: 250px;
+    width: 500px;
+    background-color: white;
+    color: black;
+    position: absolute;
+right: 50px;
+    bottom: 50px;
+}
